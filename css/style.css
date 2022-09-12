@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../imgs/top-banner.png);
+    background-repeat: no-repeat;
+}
+/*-- banner start--*/
+.banner{
+    width: 100%;
+    display: flex;
+}
+
+/*-- banner Left side start--*/
+.half-width{
+    width: 50%;
+}
+.left{
+    margin: auto 5% auto 15%;
+}
+.heading{
+    margin: 10% auto auto auto;
+
+}
+
+.name{
+    color: #FB6857;
+}
+
+.half-width h1{
+    font-size: 35pt;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #FE8B6D, #FB6857);
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+/*-- banner left side end--*/
+
+.right{
+    margin: auto 15% auto 5%;
+}
+.right img{
+    width: 100%;
+    margin-top: 6%;
+}
+
+/*-- banner end--*/
+
+/*--Dream big start--*/
+.dream-big{
+    width: 100%;
+    margin-top: 6%;
+    display: flex;
+    background-image: url(../shapes/dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.left img{
+    width: 100%;
+}
+ 
+/*--dream big end--*/
+
+/*--experience area start--*/
+
+.experience-area{
+    margin-top: 6%;
+}
+
+.experience-area>h1{
+    font-size: 30pt;
+    margin-left: 5%;
+}
+
+.ex-box{
+    display: flex;
+    background-image: url(../shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-box h3{
+    color: #F9755E;
+}
+
+.l-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4%;
+    border-radius: 0% 4% 4% 0%;
+    border-left: 5px solid;
+    border-image: linear-gradient(#FFA07A, #FF6448);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px black;
+}
+.r-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4%;
+    border-radius: 0% 4% 4% 0%;
+    border-left: 5px solid;
+    border-image: linear-gradient(#0003FF, #01FBFF);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px black;
+}
+.l-box h1{
+    font-size: 20pt;
+}
+
+.r-box h1{
+    font-size: 20pt;
+}
+
+/*--experience area end--*/
+.footer{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10%;
+}
+.f-n{
+    color: red;
+}
